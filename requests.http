@@ -1,0 +1,13 @@
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "id": 104,
+  "name": "Karan"
+}
+
+###
+
+DELETE http://localhost:8080/api/students/104
+
+
